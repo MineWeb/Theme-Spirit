@@ -1,7 +1,14 @@
 <style media="screen">
 
  /*Global*/
-
+    .maintenance {
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+    }
+    .maintenance h1, .countdown {
+        font-size: 20px;
+    }
  /*Footer*/
     .footer-area {
         background-image:radial-gradient(#CFCFCF, #fff);
@@ -36,6 +43,9 @@
         0%{background-position:0% 50%}
         50%{background-position:100% 25%}
         100%{background-position:0% 50%}
+    }
+    .cta_part {
+    background-image: url(<?= $theme_config['home_stats_img'] ?>);
     }
 
  /*Home*/

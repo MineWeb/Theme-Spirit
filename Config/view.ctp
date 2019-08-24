@@ -67,6 +67,11 @@ if(isset($config['logo']) && $config['logo']) {
                      <td><input type="text" class="form-control" name="text_slider" value="<?= $theme_config['text_slider'] ?>"></td>
                    </tr>
                    <tr>
+                     <td>Image background</td>
+                     <td><i>Par default : #</i></td>
+                     <td><input type="text" class="form-control" name="img_bg" value="<?= $theme_config['img_bg'] ?>"></td>
+                   </tr>
+                   <tr>
                      <td>Type de module "Nous rejoindre"</td>
                      <td><i>Par default : #IP</i></td>
                      <td>
@@ -81,46 +86,6 @@ if(isset($config['logo']) && $config['logo']) {
                      <td><i>Par default : #</i></td>
                      <td><input type="text" class="form-control" name="value_mod1" value="<?= $config['value_mod1'] ?>"></td>
                    </tr>
-                   <tr>
-                     <td>Image background</td>
-                     <td><i>Par default : #</i></td>
-                     <td><input type="text" class="form-control" name="img_bg" value="<?= $theme_config['img_bg'] ?>"></td>
-                   </tr>
-                   <tr>
-                     <td>Titre de la présentation</td>
-                     <td><i>Par default : #</i></td>
-                     <td>
-                       <input type="text" class="form-control" name="home_accueil" value="<?= $theme_config['home_accueil'] ?>"></td>
-                     </td>
-                   </tr>
-                   <tr>
-                     <td>Message de la présentation</td>
-                     <td><i>Par default : #</i></td>
-                     <td>
-                       <input type="text" class="form-control" name="home_accueil_text" value="<?= $theme_config['home_accueil_text'] ?>"></td>
-                     </td>
-                   </tr>
-                   <tr>
-                     <td>Texte bouton de la présentation</td>
-                     <td><i>Par default : #</i></td>
-                     <td>
-                       <input type="text" class="form-control" name="home_accueil_button_text" value="<?= $theme_config['home_accueil_button_text'] ?>"></td>
-                     </td>
-                   </tr>
-                   <tr>
-                     <td>Lien bouton de la présentation</td>
-                     <td><i>Par default : #</i></td>
-                     <td>
-                       <input type="text" class="form-control" name="home_accueil_button_lien" value="<?= $theme_config['home_accueil_button_lien'] ?>"></td>
-                     </td>
-                   </tr>
-                   <tr>
-                     <td>Image de la présentation</td>
-                     <td><i>Par default : #</i></td>
-                     <td>
-                       <input type="text" class="form-control" name="home_accueil_img" value="<?= $theme_config['home_accueil_img'] ?>"></td>
-                     </td>
-                   </tr>
                  </table>
                </div>
             </div>
@@ -130,7 +95,7 @@ if(isset($config['logo']) && $config['logo']) {
               <br>
 
               <div class="form-group">
-                <label>Maintenance</label>
+                <label>Maintenance (Crée par Tronai)</label>
 
                 <table class="table">
 
@@ -190,31 +155,51 @@ if(isset($config['logo']) && $config['logo']) {
               <br>
 
               <div class="form-group">
-                <label>Menu</label>
+                <label>Page d'accueil</label>
 
                 <table class="table">
-                  <tr>
-                    <td>Top</td>
-                    <td><i>Par default : oui</i></td>
-                    <td>
-                      <select name="top" class="form-control">
-                         <option value="true"<?= ($config['top'] == "true") ? ' selected' : '' ?>>Oui</option>
-                         <option value="false"<?= ($config['top'] == "false") ? ' selected' : '' ?>>Non</option>
-                       </select>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td>Menu</td>
-                    <td><i>Par default : 1</i></td>
-                    <td>
-                      <select name="menu" class="form-control">
-                         <option value="Menu 1"<?= ($config['menu'] == "1") ? ' selected' : '' ?>>Menu 1</option>
-                         <option value="Menu 2"<?= ($config['menu'] == "2") ? ' selected' : '' ?>>Menu 2</option>
-                       </select>
-                    </td>
-                  </tr>
-
+                <tr>
+                     <td>Titre de la présentation</td>
+                     <td><i>Par default : #</i></td>
+                     <td>
+                       <input type="text" class="form-control" name="home_accueil" value="<?= $theme_config['home_accueil'] ?>"></td>
+                     </td>
+                   </tr>
+                   <tr>
+                     <td>Message de la présentation</td>
+                     <td><i>Par default : #</i></td>
+                     <td>
+                       <input type="text" class="form-control" name="home_accueil_text" value="<?= $theme_config['home_accueil_text'] ?>"></td>
+                     </td>
+                   </tr>
+                   <tr>
+                     <td>Texte bouton de la présentation</td>
+                     <td><i>Par default : #</i></td>
+                     <td>
+                       <input type="text" class="form-control" name="home_accueil_button_text" value="<?= $theme_config['home_accueil_button_text'] ?>"></td>
+                     </td>
+                   </tr>
+                   <tr>
+                     <td>Lien bouton de la présentation</td>
+                     <td><i>Par default : #</i></td>
+                     <td>
+                       <input type="text" class="form-control" name="home_accueil_button_lien" value="<?= $theme_config['home_accueil_button_lien'] ?>"></td>
+                     </td>
+                   </tr>
+                   <tr>
+                     <td>Image de la présentation</td>
+                     <td><i>Par default : #</i></td>
+                     <td>
+                       <input type="text" class="form-control" name="home_accueil_img" value="<?= $theme_config['home_accueil_img'] ?>"></td>
+                     </td>
+                   </tr>
+                   <tr>
+                     <td>Image derrière les statistiques</td>
+                     <td><i>Par default : #</i></td>
+                     <td>
+                       <input type="text" class="form-control" name="home_stats_img" value="<?= $theme_config['home_stats_img'] ?>"></td>
+                     </td>
+                   </tr>
                 </table>
               </div>
             </div>
