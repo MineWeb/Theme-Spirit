@@ -7,5 +7,5 @@ Accueil : http://prntscr.com/ox112y - http://prntscr.com/ox1254
 
 Je suis contactable via le [Discord de Mineweb](https://discord.gg/Qq7WqkJ) (Kr0ZiX#2228) 
 Ou 
-Via Twitter [Twitter](https://twitter.com/Kr0ZiX).
+Via [Twitter](https://twitter.com/Kr0ZiX).
 
