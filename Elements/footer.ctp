@@ -4,9 +4,7 @@
         <div class="row justify-content-between">
           <div class="col-sm-6 col-md-3 col-xl-3">
             <div class="single-footer-widget footer_1">
-              <a href="index.html">
-                <img src="<?= $theme_config['imgfooter'] ?>" alt="imgfooter" />
-              </a>
+                <img src="<?= $theme_config['imgfooter'] ?>" alt="" />
             </div>
           </div>
           <div class="col-xl-3 col-sm-6 col-md-6">

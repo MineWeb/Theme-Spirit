@@ -9,6 +9,9 @@
     .maintenance h1, .countdown {
         font-size: 20px;
     }
+    .breadcrumb_bg {
+        background-image: url(<?= $theme_config['img_bg'] ?>);
+    }
  /*Footer*/
     .footer-area {
         background-image:radial-gradient(#CFCFCF, #fff);
@@ -31,7 +34,7 @@
         color: #000;
     }
     .krozix {
-        background-image: repeating-linear-gradient(45deg, #000, <?= $theme_config['color_bg'] ?>);
+        background-image: repeating-linear-gradient(45deg, <?= $theme_config['theme_color'] ?>, <?= $theme_config['color_bg'] ?>);
         text-align: center;
         background-size: 800% 800%;
         -webkit-background-clip: text;

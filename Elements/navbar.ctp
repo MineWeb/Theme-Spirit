@@ -60,11 +60,9 @@
 								    }
 								    $i++;
 									if($i == 2){
-										echo '<a class="navbar-brand" href="/" style="width:270px">';
+										echo '<a class="navbar-brand" href="/" style="width:125px">';
 										if(isset($theme_config['logo']) && $theme_config['logo']) {
 											echo '<img src="'. $theme_config['logo'] .'">';
-										  } else {
-											echo '<p>'.$website_name.'</p>';
 										  }
 										echo '</a>';
 									}

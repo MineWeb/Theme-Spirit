@@ -13,7 +13,7 @@ if(isset($config['logo']) && $config['logo']) {
         <div class="callout callout-success" style="border: none;"><h4>Suggestions & Support</h4>Une suggestion pour le thème ? Un soucis avec le thème ? Je suis disponible sur discord ! Kr0ZiX#2228</div>
     </div>
     <div class="col-md-4">
-        <div class="callout callout-danger" style="border: none;"><h4>Copyright : Mineweb & Innov</h4>Il est interdit de modifier les crédits du footer.<br>Votre licence sera suspendue si vous le faites.</div>
+        <div class="callout callout-danger" style="border: none;"><h4>Copyright : Mineweb & Spirit</h4>Il est interdit de modifier les crédits du footer.<br>Votre licence sera suspendue si vous le faites.</div>
     </div>
 
   <div class="row">
@@ -27,7 +27,7 @@ if(isset($config['logo']) && $config['logo']) {
             <ul class="nav nav-tabs">
              <li class="active"><a href="#tab1" data-toggle="tab">Option General</a></li>
              <li><a href="#tab2" data-toggle="tab">Maintenance</a></li>
-             <li><a href="#tab3" data-toggle="tab">Menu</a></li>
+             <li><a href="#tab3" data-toggle="tab">Accueil</a></li>
              <li><a href="#tab4" data-toggle="tab">Footer</a></li>
              </ul>
              <form method="post" enctype="multipart/form-data" data-ajax="false">
@@ -67,7 +67,7 @@ if(isset($config['logo']) && $config['logo']) {
                      <td><input type="text" class="form-control" name="text_slider" value="<?= $theme_config['text_slider'] ?>"></td>
                    </tr>
                    <tr>
-                     <td>Image background</td>
+                     <td>URL Image background</td>
                      <td><i>Par default : #</i></td>
                      <td><input type="text" class="form-control" name="img_bg" value="<?= $theme_config['img_bg'] ?>"></td>
                    </tr>
@@ -187,14 +187,14 @@ if(isset($config['logo']) && $config['logo']) {
                      </td>
                    </tr>
                    <tr>
-                     <td>Image de la présentation</td>
+                     <td>URL Image de la présentation</td>
                      <td><i>Par default : #</i></td>
                      <td>
                        <input type="text" class="form-control" name="home_accueil_img" value="<?= $theme_config['home_accueil_img'] ?>"></td>
                      </td>
                    </tr>
                    <tr>
-                     <td>Image derrière les statistiques</td>
+                     <td>URL Image derrière les statistiques</td>
                      <td><i>Par default : #</i></td>
                      <td>
                        <input type="text" class="form-control" name="home_stats_img" value="<?= $theme_config['home_stats_img'] ?>"></td>
@@ -214,7 +214,7 @@ if(isset($config['logo']) && $config['logo']) {
 
                 <table class="table">
                   <tr>
-                     <td>Image Footer</td>
+                     <td>URL Image Footer</td>
                      <td><i>Par default : #</i></td>
                      <td><input type="text" class="form-control" name="imgfooter" value="<?= $theme_config['imgfooter'] ?>"></td>
                    </tr>
