@@ -85,5 +85,16 @@
     .cta_part:after{
         background-color: <?= $theme_config['color_bg'] ?>;
     }
+    /*Navbar phone 1.0.1*/
+    @media (max-width: 995px){
+    .navbar-brand {
+      display: none;
+    }
+}
 
+    @media (min-width: 991px){
+    .navbar-brand {
+      display: block;
+    }
+}
 </style>
