@@ -8,7 +8,6 @@
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 <br>
 <div id="heading-breadcrumbs">
@@ -69,7 +68,6 @@
                                                        value="<?= $Lang->date($user['created']) ?>" disabled>
                                         </div>
                                     </div>
-                                    <?php if ($EyPlugin->isInstalled('eywek.shop.1')) { ?>
                                         <div class="col-sm-6">
                                             <div class="form-group">
                                                 <label><?= $Lang->get('USER__MONEY') ?></label>
@@ -77,7 +75,6 @@
                                                        disabled>
                                             </div>
                                         </div>
-                                    <?php } ?>
                                 </div>
                             </div>
                         </div>

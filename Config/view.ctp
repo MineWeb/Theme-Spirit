@@ -10,7 +10,7 @@ if(isset($config['logo']) && $config['logo']) {
 ?>
 <section class="content">
     <div class="col-md-4">
-        <div class="callout callout-success" style="border: none;"><h4>Suggestions & Support</h4>Une suggestion pour le thème ? Un soucis avec le thème ? Je suis disponible sur discord ! Kr0ZiX#2228</div>
+        <div class="callout callout-success" style="border: none;"><h4>Suggestions & Support</h4>Une suggestion pour le thème ? Un soucis avec le thème ? Je suis disponible sur discord ! <a class="krozix" href="https://discord.gg/XDTXjjX" class="color hcolor footer-a">Kr0ZiX#2228</a></div>
     </div>
     <div class="col-md-4">
         <div class="callout callout-danger" style="border: none;"><h4>Copyright : Mineweb & Spirit</h4>Il est interdit de modifier les crédits du footer.<br>Votre licence sera suspendue si vous le faites.</div>

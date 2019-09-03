@@ -79,7 +79,7 @@
     .banner_part {
         background-image: url(<?= $theme_config['img_bg'] ?>);
     }
-    .banner_part:after, .btn_1:hover{
+    .banner_part:after, .btn_1:hover, .breadcrumb:after{
         background-color: <?= $theme_config['color_bg'] ?>;
     }
     .cta_part:after{
