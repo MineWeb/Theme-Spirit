@@ -34,7 +34,7 @@
         color: #000;
     }
     .krozix {
-        background-image: repeating-linear-gradient(45deg, <?= $theme_config['theme_color'] ?>, <?= $theme_config['color_bg'] ?>);
+        background-image: repeating-linear-gradient(45deg, <?= $theme_config['theme_color'] ?>, #000);
         text-align: center;
         background-size: 800% 800%;
         -webkit-background-clip: text;
