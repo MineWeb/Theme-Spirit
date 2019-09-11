@@ -1,17 +1,15 @@
-<section class="breadcrumb breadcrumb_bg">
-<div class="container">
-<div class="row">
-<div class="col-lg-12">
-<div class="breadcrumb_iner text-center">
-<div class="breadcrumb_iner_item">
-<h2><?= $title_for_layout ?></h2>
-<p>Accueil<span> / </span><?= $title_for_layout ?></p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
+<section class="breadcrumb breadcrumb_bg align-items-center">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-sm-6">
+                    <div class="breadcrumb_tittle">
+                        <p>Accueil<span> / </span><?= $title_for_layout ?></p>
+                        <h2><?= $title_for_layout ?></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 <!-- Blog Area Start -->
 <section class="confer-blog-details-area section-padding-100-100"><section class="blog_area single-post-area section_padding">
 <div class="container">
