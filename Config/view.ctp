@@ -52,11 +52,6 @@ if(isset($config['logo']) && $config['logo']) {
                      <td><input type="text" class="form-control" name="color_bg" value="<?= $theme_config['color_bg'] ?>"></td>
                    </tr>
                    <tr>
-                     <td><?= $Lang->get('THEME__FAVICON_URL') ?></td>
-                     <td><i>Par default : #</i></td>
-                     <td><input type="text" class="form-control" name="favicon_url" value="<?= $config['favicon_url'] ?>"></td>
-                   </tr>
-                   <tr>
                      <td>Titre sur le background</td>
                      <td><i>Par default : #</i></td>
                      <td><input type="text" class="form-control" name="title_slider" value="<?= $theme_config['title_slider'] ?>"></td>
