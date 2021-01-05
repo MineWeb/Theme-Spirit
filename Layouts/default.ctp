@@ -3,10 +3,15 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-    <meta name="description" content="Serveur Minecraft">
     <meta name="author" content="Kr0ZiX, MineWeb">
-    <title><?= $website_name ?> | <?= $title_for_layout ?></title>
-    <link rel="icon" type="image/png" href="<?= $config['favicon_url'] ?>"/>
+
+    <title><?= $seo_config['title'] ?></title>
+    <link rel="icon" type="image/png" href="<?= $seo_config['favicon_url'] ?>"/>
+    <meta name="title" content="<?= $seo_config['title'] ?>">
+    <meta property="og:title" content="<?= $seo_config['title'] ?>">
+    <meta name="description" content="<?= $seo_config['description'] ?>">
+    <meta property="og:description" content="<?= $seo_config['description'] ?>">
+    <meta property="og:image" content="<?= $seo_config['img_url'] ?>">
 
     <?= $this->Html->css('bootstrap.css') ?>
 
